@@ -33,11 +33,14 @@ jobs:
           <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width,initial-scale=1">
+            <meta name="description" content="Support för Mordarkivet">
             <title>Support – Mordarkivet</title>
+
             <style>
               :root {
                 color-scheme: light dark;
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                font-family: -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
               }
 
               body {
@@ -93,7 +96,294 @@ jobs:
           <body>
           <main>
             <h1>Support för Mordarkivet</h1>
+
             <p>
-              Behöver du hjälp med Mordarkivet eller har du upptäckt ett fel?
-              Här hittar du information om support och felsökning.
-            </
+              Behöver du hjälp med Mordarkivet eller har du upptäckt
+              ett fel? Här hittar du information om support och
+              felsökning.
+            </p>
+
+            <div class="card">
+              <h2>Kontakta support</h2>
+
+              <p>
+                E-post:
+                <a href="mailto:Vardagsstod.app@gmail.com">
+                  Vardagsstod.app@gmail.com
+                </a>
+              </p>
+
+              <p>
+                Ange gärna vilken enhet du använder, vilken version
+                av iOS eller Android du har och vilket fall problemet
+                gäller.
+              </p>
+            </div>
+
+            <h2>Vanliga problem</h2>
+
+            <ul>
+              <li>
+                Kontrollera att du har internetanslutning när nytt
+                fallinnehåll ska hämtas.
+              </li>
+              <li>
+                Stäng appen helt och öppna den igen om något
+                tillfälligt har hängt sig.
+              </li>
+              <li>
+                Kontrollera att du använder den senaste versionen
+                av Mordarkivet.
+              </li>
+              <li>
+                Om ett specifikt fall inte fungerar, ange gärna
+                fallets namn i ditt supportmeddelande.
+              </li>
+            </ul>
+
+            <h2>Om spelet</h2>
+
+            <p>
+              Mordarkivet är ett fiktivt mysteriespel. Personer,
+              brott, platser och händelser i spelets fall är skapade
+              för underhållning.
+            </p>
+
+            <h2>Integritet</h2>
+
+            <p>
+              Läs vår
+              <a href="privacy.html">integritetspolicy</a>.
+            </p>
+
+            <p class="muted">
+              Senast uppdaterad: september 2026
+            </p>
+          </main>
+          </body>
+          </html>
+          EOF
+
+          cat > site/privacy.html <<'EOF'
+          <!doctype html>
+          <html lang="sv">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <meta name="description" content="Integritetspolicy för Mordarkivet">
+            <title>Integritetspolicy – Mordarkivet</title>
+
+            <style>
+              :root {
+                color-scheme: light dark;
+                font-family: -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+              }
+
+              body {
+                margin: 0;
+                background: #111418;
+                color: #f4f1ea;
+                line-height: 1.65;
+              }
+
+              main {
+                max-width: 760px;
+                margin: 0 auto;
+                padding: 40px 22px 70px;
+              }
+
+              h1, h2 {
+                line-height: 1.25;
+              }
+
+              h1 {
+                font-size: 2rem;
+                margin-bottom: 8px;
+              }
+
+              h2 {
+                margin-top: 34px;
+                font-size: 1.25rem;
+              }
+
+              p, li {
+                color: #d8d5cf;
+              }
+
+              a {
+                color: #e3b86b;
+              }
+
+              .muted {
+                color: #aaa;
+                font-size: .95rem;
+              }
+            </style>
+          </head>
+
+          <body>
+          <main>
+            <h1>Integritetspolicy för Mordarkivet</h1>
+
+            <p>
+              Den här integritetspolicyn beskriver hur information
+              hanteras när du använder appen Mordarkivet.
+            </p>
+
+            <h2>Personuppgifter och konto</h2>
+
+            <p>
+              Mordarkivet kräver inget användarkonto och ber dig inte
+              att lämna namn, adress, telefonnummer eller andra
+              personuppgifter för att spela.
+            </p>
+
+            <p>
+              Appen innehåller inte annonser och använder inte
+              information för beteendebaserad reklam eller
+              marknadsföringsspårning.
+            </p>
+
+            <h2>Spelprogression och anteckningar</h2>
+
+            <p>
+              Spelprogression och annan lokal spelinformation sparas
+              i första hand lokalt på din enhet. Syftet är att du ska
+              kunna återuppta ett påbörjat fall.
+            </p>
+
+            <p>
+              Om appen tas bort eller appens lokala data rensas kan
+              sådan sparad information försvinna.
+            </p>
+
+            <h2>Fall, bilder och annat spelinnehåll</h2>
+
+            <p>
+              Mordarkivet hämtar fall, bilder och annat spelmaterial
+              från en extern lagringstjänst som tillhandahålls genom
+              Supabase.
+            </p>
+
+            <p>
+              När appen ansluter till denna tjänst kan teknisk
+              information som normalt följer med internettrafik
+              behandlas av tjänsteleverantören, exempelvis IP-adress,
+              tidpunkt för begäran och teknisk information som krävs
+              för att leverera innehållet.
+            </p>
+
+            <p>
+              Denna tekniska behandling används för att appen ska
+              kunna hämta och visa spelinnehåll och inte för
+              annonsering eller profilering av dig.
+            </p>
+
+            <h2>Facit och lösningar</h2>
+
+            <p>
+              Lösningar till fallen lagras separat från det vanliga
+              fallinnehållet och hämtas först när spelaren väljer att
+              visa lösningen.
+            </p>
+
+            <h2>Analys och spårning</h2>
+
+            <p>
+              Mordarkivet använder för närvarande inte externa
+              analysverktyg, reklam-SDK:er eller tredjepartstjänster
+              för användarspårning.
+            </p>
+
+            <h2>Delning av uppgifter</h2>
+
+            <p>
+              Vi säljer inte personuppgifter och delar inte
+              information med annonsörer.
+            </p>
+
+            <p>
+              Teknisk information kan behandlas av de leverantörer
+              som krävs för att tillhandahålla appens innehåll och
+              tekniska infrastruktur.
+            </p>
+
+            <h2>Supabase</h2>
+
+            <p>
+              Mordarkivet använder Supabase som teknisk tjänst för
+              att lagra och leverera delar av appens spelinnehåll.
+            </p>
+
+            <p>
+              Supabase behandlar tekniska uppgifter enligt sina egna
+              villkor och sin integritetspolicy.
+            </p>
+
+            <h2>Barn</h2>
+
+            <p>
+              Mordarkivet är inte utformat för att samla in
+              personuppgifter från barn. Appen kräver inget konto och
+              innehåller ingen funktion där användaren behöver lämna
+              personliga uppgifter för att spela.
+            </p>
+
+            <h2>Säkerhet</h2>
+
+            <p>
+              Rimliga tekniska åtgärder används för att begränsa
+              åtkomsten till appens backend och separera offentligt
+              spelinnehåll från skyddat innehåll som facit.
+            </p>
+
+            <h2>Ändringar i denna policy</h2>
+
+            <p>
+              Policyn kan uppdateras om Mordarkivets funktioner eller
+              tekniska tjänster förändras. Den senaste versionen
+              publiceras alltid på denna sida.
+            </p>
+
+            <h2>Kontakt</h2>
+
+            <p>
+              Frågor om integritet eller Mordarkivet kan skickas till:
+              <a href="mailto:Vardagsstod.app@gmail.com">
+                Vardagsstod.app@gmail.com
+              </a>
+            </p>
+
+            <p>
+              <a href="support.html">Support för Mordarkivet</a>
+            </p>
+
+            <p class="muted">
+              Senast uppdaterad: september 2026
+            </p>
+          </main>
+          </body>
+          </html>
+          EOF
+
+      - name: Konfigurera GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Ladda upp Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Publicera GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
